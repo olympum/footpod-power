@@ -1,0 +1,35 @@
+{
+  "name": "footpod-power",
+  "version": "0.1.0",
+  "description": "A virtual power meter for your fooot pod",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ble-cycling-power": "olympum/ble-cycling-power",
+    "noble": ">=1.2.1",
+    "ant-plus": ">=0.0.6",
+    "debug": ">=2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:olympum/footpod-power.git"
+  },
+  "keywords": [
+    "BLE",
+    "ANT+",
+    "Zwift",
+    "running",
+    "foot",
+    "pod",
+    "power",
+    "meter"
+  ],
+  "author": "Bruno Fernandez-Ruiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olympum/footpod-power/issues"
+  },
+  "homepage": "https://github.com/olympum/footpod-power#readme"
+}
